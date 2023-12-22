@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D192942B35CBDB0069E70C /* BirthdayPickerTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192932B35CBDB0069E70C /* BirthdayPickerTestApp.swift */; };
+		C3D192982B35CBDD0069E70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D192972B35CBDD0069E70C /* Assets.xcassets */; };
+		C3D1929B2B35CBDD0069E70C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D1929A2B35CBDD0069E70C /* Preview Assets.xcassets */; };
+		C3D192A22B35CC130069E70C /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A12B35CC130069E70C /* CustomDatePicker.swift */; };
+		C3D192A42B35CD080069E70C /* BirthdayPageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A32B35CD080069E70C /* BirthdayPageInputView.swift */; };
+		C3D192A62B35CD5F0069E70C /* BirthDateInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A52B35CD5F0069E70C /* BirthDateInputViewModel.swift */; };
+		C3D192A82B35D2D90069E70C /* BirthdayPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A72B35D2D90069E70C /* BirthdayPopover.swift */; };
+		C3D192AA2B35D60E0069E70C /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */; };
+		C3D192AC2B35D9690069E70C /* DatePickerGraphical.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192AB2B35D9690069E70C /* DatePickerGraphical.swift */; };
+		C3D192AE2B35E6840069E70C /* BirthDateGraphicalInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192AD2B35E6840069E70C /* BirthDateGraphicalInputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3D192902B35CBDB0069E70C /* BirthdayPickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayPickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D192932B35CBDB0069E70C /* BirthdayPickerTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayPickerTestApp.swift; sourceTree = "<group>"; };
+		C3D192972B35CBDD0069E70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D1929A2B35CBDD0069E70C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3D192A12B35CC130069E70C /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		C3D192A32B35CD080069E70C /* BirthdayPageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayPageInputView.swift; sourceTree = "<group>"; };
+		C3D192A52B35CD5F0069E70C /* BirthDateInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateInputViewModel.swift; sourceTree = "<group>"; };
+		C3D192A72B35D2D90069E70C /* BirthdayPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayPopover.swift; sourceTree = "<group>"; };
+		C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
+		C3D192AB2B35D9690069E70C /* DatePickerGraphical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerGraphical.swift; sourceTree = "<group>"; };
+		C3D192AD2B35E6840069E70C /* BirthDateGraphicalInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateGraphicalInputView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D1928D2B35CBDB0069E70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D192872B35CBDA0069E70C = {
+			isa = PBXGroup;
+			children = (
+				C3D192922B35CBDB0069E70C /* BirthdayPickerTest */,
+				C3D192912B35CBDB0069E70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D192912B35CBDB0069E70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D192902B35CBDB0069E70C /* BirthdayPickerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D192922B35CBDB0069E70C /* BirthdayPickerTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3D192932B35CBDB0069E70C /* BirthdayPickerTestApp.swift */,
+				C3D192A32B35CD080069E70C /* BirthdayPageInputView.swift */,
+				C3D192A72B35D2D90069E70C /* BirthdayPopover.swift */,
+				C3D192AD2B35E6840069E70C /* BirthDateGraphicalInputView.swift */,
+				C3D192AB2B35D9690069E70C /* DatePickerGraphical.swift */,
+				C3D192A12B35CC130069E70C /* CustomDatePicker.swift */,
+				C3D192A52B35CD5F0069E70C /* BirthDateInputViewModel.swift */,
+				C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */,
+				C3D192972B35CBDD0069E70C /* Assets.xcassets */,
+				C3D192992B35CBDD0069E70C /* Preview Content */,
+			);
+			path = BirthdayPickerTest;
+			sourceTree = "<group>";
+		};
+		C3D192992B35CBDD0069E70C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1929A2B35CBDD0069E70C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D1928F2B35CBDB0069E70C /* BirthdayPickerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D1929E2B35CBDD0069E70C /* Build configuration list for PBXNativeTarget "BirthdayPickerTest" */;
+			buildPhases = (
+				C3D1928C2B35CBDB0069E70C /* Sources */,
+				C3D1928D2B35CBDB0069E70C /* Frameworks */,
+				C3D1928E2B35CBDB0069E70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayPickerTest;
+			productName = BirthdayPickerTest;
+			productReference = C3D192902B35CBDB0069E70C /* BirthdayPickerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D192882B35CBDA0069E70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C3D1928F2B35CBDB0069E70C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = C3D1928B2B35CBDA0069E70C /* Build configuration list for PBXProject "BirthdayPickerTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D192872B35CBDA0069E70C;
+			productRefGroup = C3D192912B35CBDB0069E70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D1928F2B35CBDB0069E70C /* BirthdayPickerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D1928E2B35CBDB0069E70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D1929B2B35CBDD0069E70C /* Preview Assets.xcassets in Resources */,
+				C3D192982B35CBDD0069E70C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D1928C2B35CBDB0069E70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D192A62B35CD5F0069E70C /* BirthDateInputViewModel.swift in Sources */,
+				C3D192A42B35CD080069E70C /* BirthdayPageInputView.swift in Sources */,
+				C3D192942B35CBDB0069E70C /* BirthdayPickerTestApp.swift in Sources */,
+				C3D192AC2B35D9690069E70C /* DatePickerGraphical.swift in Sources */,
+				C3D192A82B35D2D90069E70C /* BirthdayPopover.swift in Sources */,
+				C3D192AE2B35E6840069E70C /* BirthDateGraphicalInputView.swift in Sources */,
+				C3D192AA2B35D60E0069E70C /* DateFormatter+extensions.swift in Sources */,
+				C3D192A22B35CC130069E70C /* CustomDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3D1929C2B35CBDD0069E70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3D1929D2B35CBDD0069E70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D1929F2B35CBDD0069E70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayPickerTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BirthdayPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3D192A02B35CBDD0069E70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayPickerTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BirthdayPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D1928B2B35CBDA0069E70C /* Build configuration list for PBXProject "BirthdayPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D1929C2B35CBDD0069E70C /* Debug */,
+				C3D1929D2B35CBDD0069E70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D1929E2B35CBDD0069E70C /* Build configuration list for PBXNativeTarget "BirthdayPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D1929F2B35CBDD0069E70C /* Debug */,
+				C3D192A02B35CBDD0069E70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3D192882B35CBDA0069E70C /* Project object */;
+}
