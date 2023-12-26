@@ -22,6 +22,22 @@ struct BirthdayPopover: View {
         text.isEmpty ? "DD/MM/YYYY" : text
     }
     
+    private var datePicker: some View {
+        DatePicker(
+            "",
+            selection: $now,
+            displayedComponents: [.date]
+        )
+            .datePickerStyle(.graphical)
+            .scaleEffect(CGSize(width: 3.0, height: 3.0))
+            .offset(x: 450)
+            .onChange(of: now) { newValue in
+                text = DateFormatter.monthDayYear.string(from: newValue)
+            }
+            .frame(width: 450, height: 500)
+        
+    }
+    
     var body: some View {
         VStack {
             Text(birthDateText)
@@ -36,15 +52,36 @@ struct BirthdayPopover: View {
                 .onTapGesture { displayPopOver.toggle() }
         }
         .popover(isPresented: $displayPopOver) {
-            DatePicker(
-                "",
-                selection: $now,
-                displayedComponents: [.date]
-            )
-                .datePickerStyle(.graphical)
-                .onChange(of: now) { newValue in
-                    text = DateFormatter.monthDayYear.string(from: newValue)
+            VStack {
+                datePicker
+                HStack {
+                    Button("- 10 YEAR") {
+                        var dateComponent = DateComponents()
+                        dateComponent.year = -10
+                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                        now = newDate
+                    }
+                    Button("- 1 YEAR") {
+                        var dateComponent = DateComponents()
+                        dateComponent.year = -1
+                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                        now = newDate
+                    }
+                    Button("+ 1 YEAR") {
+                        var dateComponent = DateComponents()
+                        dateComponent.year = 1
+                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                        now = newDate
+                    }
+                    Button("+ 10 YEAR") {
+                        var dateComponent = DateComponents()
+                        dateComponent.year = 10
+                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                        now = newDate
+                    }
                 }
+            }
+            
         }
         .padding()
     }
