@@ -4,6 +4,7 @@ struct BirthdayPopover: View {
     @State private var now = Date()
     @State private var text = ""
     @State private var displayPopOver = false
+    @ObservedObject public var viewModel = YearPickerModel(initialYear: 2020)
     
     private var borderView: some View {
         RoundedRectangle(cornerRadius: 16)
@@ -38,6 +39,35 @@ struct BirthdayPopover: View {
         
     }
     
+    private var yearsNavigator: some View {
+        HStack {
+            Button("- 10 YEAR") {
+                var dateComponent = DateComponents()
+                dateComponent.year = -10
+                let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                now = newDate
+            }
+            Button("- 1 YEAR") {
+                var dateComponent = DateComponents()
+                dateComponent.year = -1
+                let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                now = newDate
+            }
+            Button("+ 1 YEAR") {
+                var dateComponent = DateComponents()
+                dateComponent.year = 1
+                let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                now = newDate
+            }
+            Button("+ 10 YEAR") {
+                var dateComponent = DateComponents()
+                dateComponent.year = 10
+                let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
+                now = newDate
+            }
+        }
+    }
+    
     var body: some View {
         VStack {
             Text(birthDateText)
@@ -52,36 +82,7 @@ struct BirthdayPopover: View {
                 .onTapGesture { displayPopOver.toggle() }
         }
         .popover(isPresented: $displayPopOver) {
-            VStack {
-                datePicker
-                HStack {
-                    Button("- 10 YEAR") {
-                        var dateComponent = DateComponents()
-                        dateComponent.year = -10
-                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
-                        now = newDate
-                    }
-                    Button("- 1 YEAR") {
-                        var dateComponent = DateComponents()
-                        dateComponent.year = -1
-                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
-                        now = newDate
-                    }
-                    Button("+ 1 YEAR") {
-                        var dateComponent = DateComponents()
-                        dateComponent.year = 1
-                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
-                        now = newDate
-                    }
-                    Button("+ 10 YEAR") {
-                        var dateComponent = DateComponents()
-                        dateComponent.year = 10
-                        let newDate = Calendar.current.date(byAdding: dateComponent, to: now)!
-                        now = newDate
-                    }
-                }
-            }
-            
+            YearPicker(viewModel: viewModel, text: $text)
         }
         .padding()
     }

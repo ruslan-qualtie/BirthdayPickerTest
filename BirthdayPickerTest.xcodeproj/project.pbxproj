@@ -17,6 +17,8 @@
 		C3D192AA2B35D60E0069E70C /* DateFormatter+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */; };
 		C3D192AC2B35D9690069E70C /* DatePickerGraphical.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192AB2B35D9690069E70C /* DatePickerGraphical.swift */; };
 		C3D192AE2B35E6840069E70C /* BirthDateGraphicalInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D192AD2B35E6840069E70C /* BirthDateGraphicalInputView.swift */; };
+		C3F76C462B3D9AE900706428 /* YearsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F76C452B3D9AE900706428 /* YearsPicker.swift */; };
+		C3F76C482B3DB61A00706428 /* YearPickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F76C472B3DB61A00706428 /* YearPickerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extensions.swift"; sourceTree = "<group>"; };
 		C3D192AB2B35D9690069E70C /* DatePickerGraphical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerGraphical.swift; sourceTree = "<group>"; };
 		C3D192AD2B35E6840069E70C /* BirthDateGraphicalInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateGraphicalInputView.swift; sourceTree = "<group>"; };
+		C3F76C452B3D9AE900706428 /* YearsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsPicker.swift; sourceTree = "<group>"; };
+		C3F76C472B3DB61A00706428 /* YearPickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				C3D192A12B35CC130069E70C /* CustomDatePicker.swift */,
 				C3D192A52B35CD5F0069E70C /* BirthDateInputViewModel.swift */,
 				C3D192A92B35D60E0069E70C /* DateFormatter+extensions.swift */,
+				C3F76C452B3D9AE900706428 /* YearsPicker.swift */,
+				C3F76C472B3DB61A00706428 /* YearPickerModel.swift */,
 				C3D192972B35CBDD0069E70C /* Assets.xcassets */,
 				C3D192992B35CBDD0069E70C /* Preview Content */,
 			);
@@ -155,12 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F76C482B3DB61A00706428 /* YearPickerModel.swift in Sources */,
 				C3D192A62B35CD5F0069E70C /* BirthDateInputViewModel.swift in Sources */,
 				C3D192A42B35CD080069E70C /* BirthdayPageInputView.swift in Sources */,
 				C3D192942B35CBDB0069E70C /* BirthdayPickerTestApp.swift in Sources */,
 				C3D192AC2B35D9690069E70C /* DatePickerGraphical.swift in Sources */,
 				C3D192A82B35D2D90069E70C /* BirthdayPopover.swift in Sources */,
 				C3D192AE2B35E6840069E70C /* BirthDateGraphicalInputView.swift in Sources */,
+				C3F76C462B3D9AE900706428 /* YearsPicker.swift in Sources */,
 				C3D192AA2B35D60E0069E70C /* DateFormatter+extensions.swift in Sources */,
 				C3D192A22B35CC130069E70C /* CustomDatePicker.swift in Sources */,
 			);
